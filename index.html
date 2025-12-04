@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navegación -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="nav-brand">
+                <span class="logo">Portfolio</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#inicio" class="nav-link"><span class="nav-number">1.</span> Inicio</a></li>
+                <li><a href="#proyectos" class="nav-link"><span class="nav-number">2.</span> Proyectos</a></li>
+                <li><a href="#sobre-mi" class="nav-link"><span class="nav-number">3.</span> Info</a></li>
+                <li><a href="#contacto" class="nav-link"><span class="nav-number">4.</span> Contacto</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sección Hero / Inicio -->
+    <section id="inicio" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="hero-name">Eduardo Troncoso</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Estudiante de Ingeniería Informática
+                </p>
+                <div class="hero-description">
+                    <p>
+                        Apasionado por la tecnología y el desarrollo de software. 
+                        Busco crear soluciones innovadoras que combinen 
+                        conocimiento técnico con creatividad.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Proyectos -->
+    <section id="proyectos" class="projects">
+        <div class="container">
+            <h2 class="section-title">Proyectos</h2>
+            
+            <div class="projects-list">
+                <!-- Proyecto 1 -->
+                <div class="project-item">
+                    <a href="https://github.com/Braktarg/ZTNA_Modular" class="project-link-item" target="_blank">
+                        <div class="project-header">
+                            <h3 class="project-title">Sistema ZTNA Modular - Zero Trust Network Access</h3>
+                            <span class="project-arrow">→</span>
+                        </div>
+                        <div class="project-meta">
+                            <span class="project-date">Diciembre 2025</span>
+                            <span class="project-separator">/</span>
+                            <span class="project-type">Cybersecurity / Zero Trust / Microservices</span>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Proyecto 2 -->
+                <div class="project-item">
+                    <a href="https://github.com/Braktarg/MedLens_MVP" class="project-link-item" target="_blank">
+                        <div class="project-header">
+                            <h3 class="project-title">MedLens MVP - Análisis de Imágenes Médicas con IA</h3>
+                            <span class="project-arrow">→</span>
+                        </div>
+                        <div class="project-meta">
+                            <span class="project-date">Noviembre 2025</span>
+                            <span class="project-separator">/</span>
+                            <span class="project-type">Machine Learning / Computer Vision</span>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Proyecto 3 -->
+                <div class="project-item">
+                    <a href="https://github.com/Braktarg/RAG_Chatbot" class="project-link-item" target="_blank">
+                        <div class="project-header">
+                            <h3 class="project-title">Chatbot RAG - Generación de Texto Especializado</h3>
+                            <span class="project-arrow">→</span>
+                        </div>
+                        <div class="project-meta">
+                            <span class="project-date">Noviembre 2025</span>
+                            <span class="project-separator">/</span>
+                            <span class="project-type">NLP / LLM / RAG</span>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Proyecto 4 -->
+                <div class="project-item">
+                    <a href="https://github.com/Braktarg/Clasificador_Emociones" class="project-link-item" target="_blank">
+                        <div class="project-header">
+                            <h3 class="project-title">Clasificador de Emociones en Texto</h3>
+                            <span class="project-arrow">→</span>
+                        </div>
+                        <div class="project-meta">
+                            <span class="project-date">Octubre 2025</span>
+                            <span class="project-separator">/</span>
+                            <span class="project-type">Machine Learning / NLP</span>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Proyecto 5 -->
+                <div class="project-item">
+                    <a href="https://github.com/Braktarg/Prediccion_Precios_Casas" class="project-link-item" target="_blank">
+                        <div class="project-header">
+                            <h3 class="project-title">Predicción de Precios de Casas</h3>
+                            <span class="project-arrow">→</span>
+                        </div>
+                        <div class="project-meta">
+                            <span class="project-date">Septiembre 2025</span>
+                            <span class="project-separator">/</span>
+                            <span class="project-type">Machine Learning / Regresión</span>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Proyecto 6 -->
+                <div class="project-item">
+                    <a href="https://github.com/Braktarg/Reconocimiento_Gestos_IMU" class="project-link-item" target="_blank">
+                        <div class="project-header">
+                            <h3 class="project-title">Reconocimiento de Gestos usando IMUs</h3>
+                            <span class="project-arrow">→</span>
+                        </div>
+                        <div class="project-meta">
+                            <span class="project-date">Agosto 2025</span>
+                            <span class="project-separator">/</span>
+                            <span class="project-type">Machine Learning / Time Series</span>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Proyecto 7 -->
+                <div class="project-item">
+                    <a href="https://github.com/Braktarg/Deteccion_Fraudes_Financieros" class="project-link-item" target="_blank">
+                        <div class="project-header">
+                            <h3 class="project-title">Detección de Fraudes Financieros</h3>
+                            <span class="project-arrow">→</span>
+                        </div>
+                        <div class="project-meta">
+                            <span class="project-date">Julio 2025</span>
+                            <span class="project-separator">/</span>
+                            <span class="project-type">Machine Learning / Anomaly Detection</span>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Proyecto 8 -->
+                <div class="project-item">
+                    <a href="https://github.com/Braktarg/Prediccion_Riesgo_Cancer" class="project-link-item" target="_blank">
+                        <div class="project-header">
+                            <h3 class="project-title">Predicción del Riesgo de Cáncer (Biomarcadores + ML)</h3>
+                            <span class="project-arrow">→</span>
+                        </div>
+                        <div class="project-meta">
+                            <span class="project-date">Junio 2025</span>
+                            <span class="project-separator">/</span>
+                            <span class="project-type">Machine Learning / Healthcare</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Sobre Mí / Info -->
+    <section id="sobre-mi" class="about">
+        <div class="container">
+            <h2 class="section-title">Info</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">
+                        Estudiante de <span class="highlight">Ingeniería Informática</span>.
+                    </p>
+                    <p class="about-description">
+                        Me apasiona el desarrollo de software, la inteligencia artificial 
+                        y la creación de soluciones tecnológicas innovadoras. 
+                        Busco constantemente aprender nuevas tecnologías y metodologías 
+                        para mejorar mis habilidades como desarrollador.
+                    </p>
+                    <div class="about-links">
+                        <a href="https://github.com/Braktarg" class="about-link" target="_blank">GitHub ↗</a>
+                        <a href="https://www.linkedin.com/in/eduardo-tr/" class="about-link" target="_blank">LinkedIn ↗</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contacto</h2>
+            <div class="contact-content">
+                <p class="contact-text">
+                    ¿Interesado en colaborar o tienes alguna pregunta?
+                </p>
+                <div class="contact-info">
+                    <a href="mailto:edtrsa2001@gmail.com" class="contact-link">
+                        edtrsa2001@gmail.com
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Eduardo Troncoso</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

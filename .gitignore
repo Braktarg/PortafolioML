@@ -1,0 +1,41 @@
+# Archivos de respaldo
+*.backup.*
+*backup*
+
+# Carpetas grandes (no necesarias para GitHub Pages)
+data/
+models/
+documents/
+Proyectos/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Archivos temporales
+*.tmp
+*.log
+
+# Archivos de Python (si hay)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Archivos de Node (si hay)
+node_modules/
+npm-debug.log
+
+# Archivos de IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
